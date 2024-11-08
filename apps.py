@@ -11,7 +11,7 @@ st.title("Circuit Generator Interface")
 
 # Sidebar for options
 st.sidebar.title("Select Circuit Type")
-option = st.sidebar.selectbox("Choose a circuit generation method:", ( "Foster1", "Foster2","Cauer1"))
+option = st.sidebar.selectbox("Choose a circuit generation method:", ( "Foster1", "Foster2"))
 a=2
 function_type = None
 # function_type = st.selectbox("Choose the function type:", ["Z(s)", "Y(s)"])
